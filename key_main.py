@@ -6,7 +6,7 @@ from omegaconf import DictConfig
 from tqdm.contrib.logging import logging_redirect_tqdm
 
 from src.utils import getLogger, createDirectory
-from src.youtube_crawler import crawlYoutubeKey
+from src.keyCrawler import crawlYoutubeKey
 
 
 @hydra.main(version_base="1.2", config_path="configs", config_name="keys.yaml")
