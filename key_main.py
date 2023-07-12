@@ -44,7 +44,7 @@ def main(config: DictConfig = None) -> None:
     csv_path = os.path.join(config.out_dir, config.keys_filename)
     log.info("Save concatencated song_info to %s", csv_path)
     youtube_keys_df = pd.DataFrame(youtube_keys)
-    youtube_keys_df.to_csv(csv_path)
+    youtube_keys_df.to_csv(csv_path, index=False)
 
 
 if __name__ == "__main__":
