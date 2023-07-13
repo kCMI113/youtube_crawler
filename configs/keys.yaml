@@ -1,0 +1,12 @@
+# url path of genie
+query_url: https://www.youtube.com/results?search_query=%22Provided+to+YouTube+by%22+%22
+
+# file path
+out_dir: outputs/
+input_dir: inputs/
+
+# csv file name
+keys_filename: 0_key_info.csv
+
+# base song info file name
+songs_filename: 15540_15624_song_info.csv
